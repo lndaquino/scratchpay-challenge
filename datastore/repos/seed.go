@@ -212,3 +212,22 @@ func seedStates() {
 		"WY": "Wyoming",
 	}
 }
+
+func (repo *PracticeInMemory) SeedTest() *entity.Practice {
+	id := uuid.New().String()
+	practice := &entity.Practice{
+		ID:            id,
+		Name:          "Practice name",
+		Category:      "test",
+		StateName:     "State of the Art",
+		StateCode:     "ST",
+		OpeningHour:   8,
+		OpeningMinute: 0,
+		ClosureHour:   17,
+		ClosureMinute: 30,
+	}
+
+	repo.m[id] = practice
+
+	return practice
+}
