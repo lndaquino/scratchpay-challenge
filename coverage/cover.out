@@ -1,0 +1,15 @@
+mode: set
+github.com/lndaquino/scratchpay-challenge/api/controllers/dto.go:23.84,24.40 1 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/dto.go:36.2,36.8 1 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/dto.go:24.40,34.3 9 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/practice.go:23.73,27.2 1 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/practice.go:30.61,36.57 5 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/practice.go:42.2,43.16 2 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/practice.go:68.2,70.40 2 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/practice.go:36.57,40.3 1 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/practice.go:43.16,44.14 1 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/practice.go:45.23,48.6 1 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/practice.go:49.26,52.6 1 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/practice.go:53.24,56.6 1 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/practice.go:57.32,60.6 1 1
+github.com/lndaquino/scratchpay-challenge/api/controllers/practice.go:61.11,64.6 1 0
