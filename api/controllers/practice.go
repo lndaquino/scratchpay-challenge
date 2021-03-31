@@ -58,6 +58,10 @@ func (ctl *PracticeController) Search(c echo.Context) error {
 			return c.JSON(http.StatusBadRequest, map[string]string{
 				"error": err.Error(),
 			})
+		default:
+			return c.JSON(http.StatusInternalServerError, map[string]string{
+				"error": err.Error(),
+			})
 		}
 	}
 

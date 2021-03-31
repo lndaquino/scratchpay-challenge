@@ -4,3 +4,8 @@ Assumptions
 
 Security
 - to acess the endpoint it would be useful to use some kind of authentication, like JWT
+
+Falta
+- CI
+- Docker
+- Readme

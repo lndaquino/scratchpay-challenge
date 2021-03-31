@@ -3,6 +3,7 @@ package routers
 import (
 	"github.com/labstack/echo"
 	"github.com/lndaquino/scratchpay-challenge/api/controllers"
+	"github.com/lndaquino/scratchpay-challenge/api/middlewares"
 )
 
 // SystemRoutes struct models a system level router
@@ -21,7 +22,7 @@ func NewSystemRoutes(c *controllers.PracticeController) *SystemRoutes {
 func (routes *SystemRoutes) MakeControllers() *echo.Echo {
 	e := echo.New()
 
-	e.GET("/", routes.practiceController.Search)
+	e.GET("/", routes.practiceController.Search, middlewares.EnsureIsAuthenticated)
 
 	return e
 }
